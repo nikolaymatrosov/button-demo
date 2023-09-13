@@ -1,3 +1,3 @@
 <p align="center">
-[![Deploy](https://deploy-button.website.yandexcloud.net/yc.svg)](https://deploy.local:3000?repo=https://github.com/nikolaymatrosov/button-demo/tree/main)
+<a href="https://deploy.local:3000?repo=https://github.com/nikolaymatrosov/button-demo/tree/main"><img alt="Deploy" src="https://deploy-button.website.yandexcloud.net/yc.svg"></a>
 </p>
