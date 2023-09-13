@@ -1,0 +1,12 @@
+spec:
+  - type: 'serverless-function'
+    function-name: 'github-deploy'
+    runtime: 'nodejs16'
+    memory: 256Mb
+    entrypoint: 'dist/index.handler'
+    environment: |
+      DEBUG=True
+      FOO=bar
+    include: |
+      ./functions
+      package.json
