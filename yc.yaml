@@ -3,7 +3,7 @@ spec:
     function-name: 'deploy-fom-button'
     runtime: 'nodejs16'
     memory: 256Mb
-    entrypoint: 'dist/index.handler'
+    entrypoint: 'function/index.handler'
     environment: |
       DEBUG=True
       FOO=bar
