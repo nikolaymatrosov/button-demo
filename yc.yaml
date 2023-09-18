@@ -10,3 +10,4 @@ spec:
     include: |
       ./function
       package.json
+      package-lock.json
