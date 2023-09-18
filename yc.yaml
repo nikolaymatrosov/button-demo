@@ -1,6 +1,6 @@
 spec:
   - type: 'serverless-function'
-    function-name: 'github-deploy'
+    function-name: 'deploy-fom-button'
     runtime: 'nodejs16'
     memory: 256Mb
     entrypoint: 'dist/index.handler'
@@ -8,5 +8,5 @@ spec:
       DEBUG=True
       FOO=bar
     include: |
-      ./functions
+      ./function
       package.json
